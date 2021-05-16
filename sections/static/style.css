@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+:root {
+	font-size: 16px
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: aqua;
+}
+ul {
+	list-style-type: none;
+}
+
+:focus:not {
+	outline: none;
+	border: none;
+}
+
+/*------distribute----*/
+
+#distribute {
+	width: 100%;
+	height: 100vh;
+	background-image: url("Picture/1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#distribute div {
+	padding: 15% 25%;
+	text-align: center;
+	color: red;
+}
+#distribute div h1, h2, p {
+	font-size: 2.0rem;
+	font-weight: 600;
+}
+
+/*  Distributions: */
+
+#Distributions {
+	width: 100%;
+	height: 100vh;	
+	background-image: url("./Picture/4.jpg");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#Distributions h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.3rem;
+	color: #fbfff4;
+	text-shadow: 20px 20px 10px red;
+	padding: 10% 0 40px 0;
+}
+#Distributions div {
+	padding-left: 200px;
+}
+#Distributions input {
+	padding: 5px 10px;
+	border: none;
+	font-size: 1rem;
+	margin-bottom: 30px;
+}
+#Distributions button {
+	padding: 5px 10px;
+	border: none;
+	font-size: 1rem;
+}
+#Distributions button:hover {
+	background-color: rgb(126, 247, 241);
+}
+#Distributions ul {
+	font-size: 1.3rem;
+	color: #fff;
+	position: absolute;
+	top: 15px;
+	margin-left: 30px;
+}
+
+/*---Add Distribution---*/
+
+#Add_Distribution {
+	text-align: center;
+    padding: 160px;
+    background-color: #fff61c;
+    position: relative;
+    height: 100vh;
+    border: 1px solid #000;
+}
+#Add_Distribution h1 {
+	color: #000;
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	font-weight: 650;
+}
+
+#Add_Distribution form {
+	color: #000;
+	font-size: 1.2rem;
+	font-weight: 650;
+}
+#Add_Distribution form button {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	border-radius: 0;
+	border-color: #000;
+	font-weight: 650;
+	letter-spacing: 2px;
+	background-color: #000;
+}
+#Add_Distribution form button:hover {
+	color: #fff61c;
+}
+
+
+/*-----------medicine.name--------*/
+
+#medicine {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./Picture/3.jpg");
+}
+
+#medicine div {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+#medicine div h1 {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	color: aqua;
+	text-shadow: 0 0 46px red;
+}
+
+#medicine div p {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: #000;
+	line-height: 2rem;
+}
+
+#Medicines{
+	width: 100%;
+	height: 100vh;
+	background-image: url("./Picture/4.jpg");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#Medicines h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.3rem;
+	color: #fbfff4;
+	text-shadow: 20px 20px 10px red;
+	padding: 10% 0 40px 0;
+
+}
+#Medicines div {
+	padding-left: 200px;
+}
+#Medicines input {
+	padding: 5px 10px;
+	border: none;
+	font-size: 1rem;
+	margin-bottom: 30px;
+	margin-left: 300px;
+}
+#Medicines button {
+	padding: 5px 10px;
+	border: none;
+	font-size: 1rem;
+}
+#Medicines button:hover {
+	background-color: rgb(126, 247, 241);
+}
+#Medicines ul {
+	font-size: 1.3rem;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+}
+
+
+/*Pharmacy*/
+#Pharmacy{
+	width: 100%;
+	height: 100vh;
+	background-image: url("./Picture/4.jpg");
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#Pharmacy h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.3rem;
+	color: #fbfff4;
+	text-shadow: 20px 20px 10px red;
+	padding: 10% 0 40px 0;
+}
+#Pharmacy div {
+	padding-left: 200px;
+}
+#Pharmacy input {
+	padding: 5px 10px;
+	border: none;
+	font-size: 1rem;
+	margin-bottom: 30px;
+	margin-left: 300px;
+}
+#Pharmacy button {
+	padding: 5px 10px;
+	border: none;
+	font-size: 1rem;
+}
+#Pharmacy button:hover {
+	background-color: rgb(126, 247, 241);
+}
+#Pharmacy ul {
+	font-size: 1.3rem;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+}
+
+
+#pharm {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./Picture/1.jpg");
+}
+#pharm video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+#pharm div {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+#pharm div h1 {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	color: aqua;
+	text-shadow: 0 0 46px red;
+}
+
+#pharm div p {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: #000;
+	line-height: 2rem;
+}
+

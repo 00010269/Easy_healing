@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distribution</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div id="Distributions">
+        <ul>
+            <li class="active"><a href="http://127.0.0.1:8000/">Home</a></li>
+        </ul>
+        <h2 >Distributions: </h2>
+        <div>
+            <form>
+                <input name="search" value="{{ search }}" placeholder="search distributions...">
+                <button type="submit">Search</button>
+            </form>
+            <ul>
+                {% for distribution in distributions %}
+                    <li>
+                        <a href="{% url 'distribution-detail' distribution.pk %}">
+                            {{ distribution.medicine }} in {{ distribution.pharmacy }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>
+

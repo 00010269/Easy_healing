@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ distribution.medicine }} in {{ distribution.pharmacy }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+	<div id="distribute">
+		<div>
+			<h1>Nomi: {{ distribution.medicine }}</h1>
+    		<h2>Dorixona: {{ distribution.pharmacy }}</h2>
+    		<p>Miqdori: {{ distribution.quantity }}</p>
+    		<p>Narxi: {{ distribution.price }}</p>
+		</div>
+	</div>
+</body>
+</html>
+
+
+<style>
+    body{
+		width: 100%;
+		height: 100vh;
+		background-image: url("../../static/Picture/4.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	div{
+		padding: 15% 25%;
+		text-align: center;
+		color: red;
+	}
+	div h1, h2, p {
+	font-size: 2.0rem;
+	font-weight: 600;
+    }
+
+</style>
+
